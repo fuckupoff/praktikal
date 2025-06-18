@@ -1,5 +1,14 @@
-def http(lst):
-    return [s for s in lst if s.startswith("http://")]
-
-strings = ["http://пример", "https://пример", "http://сайт", "hhhtp://привет", "привет"]
-print(http(strings))
+strs = [
+        "http://youtube.com",
+        "https://www.youtube.com",
+        "http://google.com",
+        "ftp://files.com",
+        "http://yandex.ru",
+        "null",
+        "https://github.com"
+]
+res = []
+for i in strs:
+        if i.startswith("http://"):
+                res.append(i)
+print(res)
