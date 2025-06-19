@@ -1,3 +1,3 @@
-def w(n):
-    print(f"Hello, {n}")
+def welcome(name):
+    print(f"Hello, {name}")
 w("Danil")
