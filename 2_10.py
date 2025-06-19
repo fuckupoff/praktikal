@@ -1,7 +1,9 @@
-l = []
+new_dict = []
 while True:
-    s=input()
-    if not s:
+    i = input()
+    if i == '':
         break
-    l.append(s)
-print(min(l, key=len),max(l, key=len))
+    new_dict.append(i)
+min_num = min(new_dict, key=len)
+max_num = max(new_dict, key=len)
+print(min_num, max_num)
