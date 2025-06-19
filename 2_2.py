@@ -1,3 +1,3 @@
-def w():
+def welcome():
     print("Welcome")
-w()
+welcome()
