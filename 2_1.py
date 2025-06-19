@@ -1,3 +1,5 @@
 import random
-a = [random.randint(0,100) for i in range(10)]
-print(min(a))
+new_dict = []
+for i in range (10):
+  new_dict.append(random.randint(1,100))
+print(min(new_dict))
