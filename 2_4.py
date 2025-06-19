@@ -1,3 +1,3 @@
-def m(x, y):
-    return x*y
-print(m(3, 3))
+def product(num1, num2):
+    return num1 * num2
+print(product(3, 3))
