@@ -1,3 +1,3 @@
-def dia(r):
-    return r*2
-print(dia(7))
+def diametr(r):
+    return 2 * r
+print(f'deiametr = {diametr(3)}')
